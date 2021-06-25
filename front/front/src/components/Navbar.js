@@ -51,7 +51,7 @@ import logo from "../images/logo-white1.png";
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a href="/">
+              <a href="/toffy">
                 <img src={logo} alt="Logo" />
               </a>
             </div>
@@ -65,7 +65,7 @@ import logo from "../images/logo-white1.png";
                 onChange={handleChange}
               ></input>
               <div className="_mainSignUp">
-                <Link to="/Contact">Contact</Link>
+                <Link to="/toffy/contact">Contact</Link>
               </div>
               <div className="_tasteBox"></div>
             </div>

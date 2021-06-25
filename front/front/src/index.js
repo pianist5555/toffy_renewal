@@ -17,5 +17,5 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-export { default as Home } from "./pages/Home.js";
+export { default as ToffyHome } from "./pages/ToffyHome.js";
 export { default as Mypage } from "./pages/MyPage.js";

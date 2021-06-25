@@ -7,10 +7,10 @@ import MainContainer from "../containers/MainContainer";
 import PaginationContainer from '../containers/PaginationContainer'
 import "../css/bootstrap4-neon-glow.css";
 
-class Home extends Component {
+class ToffyHome extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="ToffyHome">
         <NavbarContainer></NavbarContainer>
         <MainContainer></MainContainer>
         <TagContainer></TagContainer>
@@ -22,7 +22,7 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default ToffyHome;
 
 
 

@@ -73,9 +73,9 @@ class MyPage extends Component {
     };
     return (
       <Fragment>
-        <Navbar></Navbar>
         <div className="ContactBack">
           <div className="ContactBody">
+            <Navbar></Navbar>
             <div className="card-body">
               <div className="submitForm">
                 <div className="ht-tm-codeblock ht-tm-btn-replaceable ht-tm-element ht-tm-element-inner">

@@ -12320,7 +12320,7 @@ a.text-dark:focus {
   border-radius: 3px;
 }
 
-.Home{
+.ToffyHome{
   width: 1920px;
 }
 /*푸터*/
@@ -12350,7 +12350,8 @@ a.text-dark:focus {
   background-size: 100%;
   /*background-image: url('../images/A_back.png');*/
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/A_back.jpg');
-	width: 100%
+	width: 100%;
+  height: 930px;
 }
 .ContactBody{
   margin : 0px 330px 0px 0px;
@@ -12530,7 +12531,7 @@ a.text-dark:focus {
   margin: 0 auto;
   padding: 0 0 0 0;
   width: 400px;
-  height: 800px;
+  height: 100%;
 }
 ._apiJoinClass1,
 ._apiJoinClass2,
