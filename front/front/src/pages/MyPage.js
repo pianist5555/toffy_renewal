@@ -22,7 +22,7 @@ class MyPage extends Component {
   _renderText = () => {
     axios
       // Restframework에서 json으로 보여주는 페이지 url을 get 방식으로 접근
-      .get("/api/tfnote/")
+      .get("/cms/api/tfnote/")
       .then((res) => this.setState({ textList: res.data }))
       .catch((err) => console.log(err));
   };
@@ -58,7 +58,7 @@ class MyPage extends Component {
       input1.value = "";
       input2.value = "";
       axios
-        .post("/api/tfnote/", { writer: value1, text: value2 })
+        .post("/cms/api/tfnote/", { writer: value1, text: value2 })
         .then((res) => this._renderText());
         writeSomething=false
     }

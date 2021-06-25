@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Route } from "react-router-dom";
+import MyPage from "./pages/MyPage";
+import Home from "./pages/Home";
+import GameListContainer from './containers/GameListContainer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./css/index.css";
+
+
+class App extends Component {
+
+  componentDidMount(){
+    document.title = "Toffy"
+  }
+
+  render() {
+    return (
+      <div className="font">
+        {" "}
+        <Route path="/g" component={GameListContainer} />{" "}
+        <Route exact path="/" component={Home} />{" "}
+        <Route path='/contact'render={() => <MyPage lang={""} />}/>{" "}
+      </div>
+    );
+  }
 }
-
 export default App;

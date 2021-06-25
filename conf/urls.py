@@ -16,5 +16,5 @@ app_patterns = [
     path('api/', include(router.urls)),
 ]
 urlpatterns = [
-    path('toffy/', include(app_patterns)),
+    path('cms/', include(app_patterns)),
 ]
