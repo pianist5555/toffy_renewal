@@ -59,12 +59,6 @@ def main():
                 'image': cleanText(gameI.get('src'))
                 # 'rank' : ???
             }
-
-            # 이미지 저장
-            img = gameI.get('src')
-            print("img= "+ img)
-            #urllib.request.urlretrieve(cleanText(img), outpath+cleanText(gameT.text).replace("/","").strip()+".jpg")
-
             result.append(data)
 
         return result
@@ -94,13 +88,12 @@ if __name__ == '__main__':
     gameData = main()
     if gameData :
         # 순서대로 Tfgame 모델에 저장 랭크의 경우 for문이 돌면서 1씩 증가
-         _rank = 1
-         _num = 1
-         for t in gameData:
-             print(t["title"])
-             Tfgame(id=_num, title=t["title"], price=t["price"], href=t["href"], image=t['image'], rank=_rank).save()
-             _rank +=1
-             _num +=1
+        _rank = 1
+        _num = 1
+        for t in gameData:
+            Tfgame(id=_num, title=t["title"], price=t["price"], href=t["href"], image=t['image'], rank=_rank).save()
+            _rank +=1
+            _num +=1
 
     else :
         print("gameData = main() = X")

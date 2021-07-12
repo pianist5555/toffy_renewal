@@ -155,7 +155,7 @@ const GameList = ({ gameList, loadingGameList, select, currentPage, setTotalPost
             <div className="ht-tm-element alert alert-success" role="alert" key={arg.id}>
             <h4 className="alert-heading">게임을 찾지 못했습니다.</h4>
             장르 조합을 변경하시거나 &nbsp;
-            <a href="Contact" className="alert-link">이곳을 눌러 원하시는 게임을 말씀해주세요.</a>
+            <a href="toffy/contact" className="alert-link">이곳을 눌러 원하시는 게임을 말씀해주세요.</a>
           </div>
           )
         } else if (selectedLang==="English"){
@@ -163,7 +163,7 @@ const GameList = ({ gameList, loadingGameList, select, currentPage, setTotalPost
             <div className="ht-tm-element alert alert-success" role="alert" key={arg.id}>
             <h4 className="alert-heading">Game not found.</h4>
             Change genre combinations, or &nbsp;
-            <a href="Contact" className="alert-link">Click here to tell us the game you want.</a>
+            <a href="toffy/contact" className="alert-link">Click here to tell us the game you want.</a>
           </div>
           )
         }
@@ -173,7 +173,7 @@ const GameList = ({ gameList, loadingGameList, select, currentPage, setTotalPost
             <div className="ht-tm-element alert alert-primary" role="alert">
             <h4 className="alert-heading">게임을 찾지 못했습니다.</h4>
             검색어를 변경하시거나 &nbsp;
-            <a href="Contact" className="alert-link">이곳을 눌러 원하시는 게임을 말씀해주세요.</a>
+            <a href="toffy/contact" className="alert-link">이곳을 눌러 원하시는 게임을 말씀해주세요.</a>
           </div>
           )
         } else if (selectedLang==="English"){
@@ -181,7 +181,7 @@ const GameList = ({ gameList, loadingGameList, select, currentPage, setTotalPost
             <div className="ht-tm-element alert alert-primary" role="alert">
             <h4 className="alert-heading">Game not found.</h4>
             Change search value, or &nbsp;
-            <a href="Contact" className="alert-link">Click here to tell us the game you want.</a>
+            <a href="toffy/contact" className="alert-link">Click here to tell us the game you want.</a>
           </div>
           )
         }
