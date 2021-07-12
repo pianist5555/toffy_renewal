@@ -12328,7 +12328,8 @@ a.text-dark:focus {
   float:left;
   background-color: black;
   width : 1920px;
-  margin:0px;
+  margin: 17px 0px 0px 0px;
+  height: auto;
 }
 
 .fa-github{
@@ -12438,7 +12439,7 @@ a.text-dark:focus {
   font-size : 15px;
 }
 .container.py-5.mb5{
-  max-width: 1330px;
+  max-width: 1400px;
 }
 
 .ht-tm-element.badge.badge-primary.main-badge{
