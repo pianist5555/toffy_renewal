@@ -1,14 +1,20 @@
 import React, { Component } from "react";
-import logo from "../images/logo-white1.png";
+import Toffy from "../images/logo-white1.png";
+import Rocket from "../images/rocket.gif";
 import "../css/bootstrap4-neon-glow.css";
 
 class Index extends Component {
   render() {
     return (
       <div className="Index">
-        <a href="/toffy">
-          <img src={logo} alt="Logo" />
-        </a>
+        <div className="Toffy">
+          <a href="/toffy">
+            <img src={Toffy} alt="Toffy" />
+          </a>
+        </div>
+        <div className="Rocket">
+          <img src={Rocket} alt="Rocket"  width="300"/>
+        </div>
       </div>
     );
   }
