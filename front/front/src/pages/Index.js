@@ -123,10 +123,10 @@ class Index extends Component {
             - 크롤링 : BeautifulSoup4, Selenium
             </div>
           </div>
-          <div className="lio1">
-            <a href="../images/rocket.gif"><img src={Toffy} alt="lio1" /></a>
+          <div className="IPMS">
+            <a href="../portfolio/IPMS.pdf"><img src={Toffy} alt="IPMS" /></a>
             <div className='introduction'>
-            통합주문결제 관리서비스
+            통합주문결제 관리서비스(IPMS)
             PC, 태블릿을 이용한 무인결제 및 관리시스템
 
             개발기간 : 2019.06.19 ~ 2019.07.26
