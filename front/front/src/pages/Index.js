@@ -124,7 +124,7 @@ class Index extends Component {
             </div>
           </div>
           <div className="IPMS">
-            <a href="../portfolio/IPMS.pdf"><img src={Toffy} alt="IPMS" /></a>
+            <a href="../static/portfolio/IPMS.pdf"><img src={Toffy} alt="IPMS" /></a>
             <div className='introduction'>
             통합주문결제 관리서비스(IPMS)
             PC, 태블릿을 이용한 무인결제 및 관리시스템
