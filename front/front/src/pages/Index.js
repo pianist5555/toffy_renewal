@@ -25,7 +25,7 @@ class Index extends Component {
 
         <div className="Skills">
         <p className='LargeCategory'>보유기술</p>
-          <div>
+          <div className='Infra'>
             <p>✎인프라 스택</p>
             <p>✔"클라우드"</p>
             <p>- AWS의 로드밸런서, Elastic Beanstalk 등을 활용하여 운영 서버 환경을 구성할 수 있고 무중단 배포를 할 수 있습니다.</p>  
@@ -41,7 +41,8 @@ class Index extends Component {
             <p>✔"CI/CD"</p>
             <p> Travis CI를 이용해 Docker를 기반으로한 Elastic Beanstalk, R3와 통신하여 자동화 테스트/빌드, 자동화 배포 환경을 구축할 수 있습니다.</p>
             <p> CodeDeploy에 대한 경험이 있습니다.</p>
-
+          </div>
+          <div className='Monitoring'>
             <p>✎모니터링 및 트러블 슈팅 스택</p>
             <p>✔"Prometheus"</p>
             <p>- 매트릭 데이터를 수집 할 수 있습니다.</p>  
@@ -51,7 +52,8 @@ class Index extends Component {
             <p>- 테스트 시나리오에 맞춰 TPS 측정 및 부하를 줄 수 있습니다.</p>  
             <p>✔"Shell script"</p>
             <p>- 크론 서비스와 연계하여 하드웨어 성능 및 저장공간이 특정 기준치를 넘으면 Telegram 알람을 보내는 등 awk를 활용하여 시스템 장애를 예방할 수 있습니다.</p>  
-
+          </div>
+          <div className='App'>
             <p>✎어플리케이션 스택</p>
             <p>✔"Python"</p>
             <p>- 기본문법을 사용할 수 있고 매직메소드, 메타클래스를 활용하며 제네레이터를 기반으로 코루틴을 구현하고 스레드와 프로세스를 사용하여 데이터를 처리할 수 있습니다.</p>  
