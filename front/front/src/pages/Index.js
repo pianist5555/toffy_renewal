@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Toffy from "../images/logo-white1.png";
 import Rocket from "../images/rocket.gif";
+import Me from "../images/me.jpg";
 import "../css/bootstrap4-neon-glow.css";
 
 class Index extends Component {
@@ -9,6 +10,7 @@ class Index extends Component {
       <div className="Index">
         <div className="Rocket">
         <p>안녕하세요 모든 상황에 유연하게 대처하는 전문가를 꿈꾸는 개발자 박선오입니다.</p>  
+          <img src={Me} alt="Me"  width="300"/>
           <img src={Rocket} alt="Rocket"  width="300"/>
         </div>
         <div className="Profile">
