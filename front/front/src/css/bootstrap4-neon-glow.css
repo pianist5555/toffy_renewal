@@ -120,7 +120,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /*max-width: 100%;*/ /*width: 1920px;*/
+  max-width: 1920px;
 }
 
 article,
@@ -12241,6 +12241,15 @@ a.text-dark:focus {
   width: 40px;
 }
 
+/* 포트폴리오 메인 */
+.Index{
+  margin: 0px;
+}
+.Index .LargeCategory{
+  font-size: 15px;
+  font-weight: 800;
+}
+
 /* 사용자 정의 CSS (선오) */
 /*설문조사*/
 .text-mono{
@@ -12279,13 +12288,13 @@ a.text-dark:focus {
   z-index: 1;
   background-color: rgb(0, 0, 0);
   height: 50px;
-  width: 100%; /*width: 1920px;*/
+  width: 1920px;
   padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition-duration: 0.5s;
-  /*max-width: 100%;*//*width: 1920px;*/
+  max-width: 1920px;
 }
 .navCustom{
   position: fixed;
@@ -12294,14 +12303,14 @@ a.text-dark:focus {
   right: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0,0.65);
-  width: 100%; /*width: 1920px;*/
+  width: 1920px;
   height: 50px;
   padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition-duration: 0.5s;
- /*max-width: 100%;*/  /*width: 1920px;*/
+  max-width: 1920px;
 }
 .navbar-dark.text-white._floating.navCustom>.container>.navbar.px-0.navbar-expand-lg.navbar-dark>#navbarNavAltMarkup>.input-group>.form-control._searchFormControl{
   background-color: rgba(40, 41, 62,0.65);
@@ -12321,13 +12330,13 @@ a.text-dark:focus {
 }
 
 .ToffyHome{
-  width: 100%;/*width: 1920px;*/
+  width: 1920px;
 }
 /*푸터*/
 .footer.py-5{
   float:left;
   background-color: black;
-  width : 100%; /*width: 1920px;*/
+  width : 1920px;
   margin: 17px 0px 0px 0px;
   height: auto;
 }
@@ -12398,7 +12407,7 @@ a.text-dark:focus {
 
 .TagsContainer {
   background-color: white;
-  width:100%; /*width: 1920px;*/
+  width:1920px;
 }
 
 .submitLogo {
