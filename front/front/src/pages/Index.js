@@ -10,6 +10,7 @@ class Index extends Component {
         <div className="Toffy">
           <a href="/toffy">
             <img src={Toffy} alt="Toffy" />
+            
           </a>
         </div>
         <div className="Rocket">
