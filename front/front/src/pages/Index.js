@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Toffy from "../images/logo-white1.png";
 import Rocket from "../images/rocket.gif";
-import Me from "../images/me.jpg";
+import Me from "../images/Me.jpg";
 import "../css/bootstrap4-neon-glow.css";
 
 class Index extends Component {
