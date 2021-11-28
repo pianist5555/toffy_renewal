@@ -8,15 +8,19 @@ class Index extends Component {
     return (
       <div className="Index">
         <div className="Rocket">
+          안녕하세요 모든 상황에 유연하게 대처하는 전문가를 꿈꾸는 개발자 박선오입니다.
           <img src={Rocket} alt="Rocket"  width="300"/>
         </div>
         <div className="Profile">
           프로필
+          Name: 박선오 (Park Seono)
+          Phone: 010-7460-4477
+          Mail: pianist5555@gmail.com
         </div>
         <div className="Carrer">
           경력사항
           제이카 (2020년 6월 ~ 2021년 11월)
-          <div className='role'>
+          <div className='Role'>
           1. 제이카
             1-1. 앱 리뉴얼
             1-2. 앱 서버운영
@@ -110,12 +114,27 @@ class Index extends Component {
             간단한 설문조사를 통한 맞춤형 모바일 게임 추천
 
             개발기간 : 2020.02.12 ~ 2020.06.02
-            구현기능 : 취향테스트, 검색, 태그조합, 언어선택, 페이지네이션, 방명록, 크롤링, 로딩바
+            개발인원 : 2명
+            담당기능 : 취향테스트, 검색, 태그조합, 언어선택, 페이지네이션, 방명록, 크롤링, 로딩바
 
             - 사용언어 : JS, Python
             - 프레임워크 : React.js, React-redux, Django
             - 호스팅 : AWS EC2(Ubuntu)
             - 크롤링 : BeautifulSoup4, Selenium
+            </div>
+          </div>
+          <div className="lio1">
+            <a href="../images/rocket.gif"><img src={lio1} alt="lio1" /></a>
+            <div className='introduction'>
+            통합주문결제 관리서비스
+            PC, 태블릿을 이용한 무인결제 및 관리시스템
+
+            개발기간 : 2019.06.19 ~ 2019.07.26
+            개발인원 : 3명
+            담당기능 : 가결제, 1:1 상담 채팅, 고객센터 게시판
+
+            - 사용언어 : JS, Java
+            - 프레임워크 : Spring
             </div>
           </div>
         </div>
