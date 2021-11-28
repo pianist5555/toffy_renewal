@@ -12243,11 +12243,35 @@ a.text-dark:focus {
 
 /* 포트폴리오 메인 */
 .Index{
-  margin: 0px;
+  margin: 3% 6%;
+}
+.Index p {
+  margin: 0px 0px 0px 10px;
+}
+.Index div {
+  margin-top: 20px;
+}
+.Index div div{
+  margin-bottom: 10px;
 }
 .Index .LargeCategory{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 800;
+  margin-left: 0px;
+  color: #AF97EB;
+}
+.Index .MiddleCategory{
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 5px;
+  color: #3A5DF2;
+}
+
+.Index .Rocket p{
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 0px;
+  color: #EBA933;
 }
 
 /* 사용자 정의 CSS (선오) */
