@@ -124,7 +124,7 @@ class Index extends Component {
             </div>
           </div>
           <div className="lio1">
-            <a href="../images/rocket.gif"><img src={lio1} alt="lio1" /></a>
+            <a href="../images/rocket.gif"><img src={Toffy} alt="lio1" /></a>
             <div className='introduction'>
             통합주문결제 관리서비스
             PC, 태블릿을 이용한 무인결제 및 관리시스템
