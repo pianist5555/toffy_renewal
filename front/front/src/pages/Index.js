@@ -9,20 +9,22 @@ class Index extends Component {
     return (
       <div className="Index">
         <div className="Rocket">
-        <p>안녕하세요 모든 상황에 유연하게 대처하는 전문가를 꿈꾸는 개발자 박선오입니다.</p> 
-        <p>모른다는 말을 함부로 입에 담기보다 내일은 이해하고 구현할 수 있다는 태도를 가지고 임하고 있습니다.</p> 
-        <p>주어진 상황에 맞춰 개선하고 항상 더 나은 해결책이 있을거라 생각합니다.</p> 
+          <p>안녕하세요 모든 상황에 유연하게 대처하는 전문가를 꿈꾸는 개발자 박선오입니다.</p> 
+          <p>모른다는 말을 함부로 입에 담기보다 내일은 이해하고 구현할 수 있다는 태도를 가지고 임하고 있습니다.</p> 
+          <p>주어진 상황에 맞춰 개선하고 항상 더 나은 해결책이 있을거라 생각합니다.</p> 
           <img src={Me} alt="Me"  width="300"/>
           <img src={Rocket} alt="Rocket"  width="300"/>
         </div>
+
         <div className="Profile">
-        <p>프로필</p>  
+        <p className='LargeCategory'>프로필</p>  
         <p>Name: 박선오 (Park Seono)</p>  
         <p>Phone: 010-7460-4477</p>  
         <p>Mail: pianist5555@gmail.com</p>  
         </div>
+
         <div className="Skills">
-        <p>보유기술</p>
+        <p className='LargeCategory'>보유기술</p>
           <div>
             <p>✎인프라 스택</p>
             <p>✔"클라우드"</p>
@@ -74,17 +76,20 @@ class Index extends Component {
             <p>- 기본문법을 사용할 수 있고 구조체 포인터 등을 만들어 알고리즘을 구현할 수 있습니다.</p>  
           </div>
         </div>
+
         <div className="Capabilities">
-          <p>핵심역량</p>
+          <p className='LargeCategory'>핵심역량</p>
         </div>
+
         <div className="Certificate">
-        <p>자격사항</p>
+        <p className='LargeCategory'>자격사항</p>
           <div className='Sqld'>
           <p>SQLD(한국데이터산업진흥원 2019.07)</p>  
           </div>
         </div>
+
         <div className="Carrer">
-          <p>경력사항</p>
+          <p className='LargeCategory'>경력사항</p>
           <p>제이카 (2020년 6월 ~ 2021년 10월)</p>
           <div className='Role'>
             <p>1. 제이카 리뉴얼 및 운영</p>
@@ -103,8 +108,9 @@ class Index extends Component {
             <p>담당업무:cms 프론트 및 백엔드, 개발서버와 운영서버 구축, CI/CD 환경 구축</p>
           </div>
         </div>
+
         <div className="Toyproject">
-        <p>사이드프로젝트</p>
+        <p className='LargeCategory'>사이드프로젝트</p>
           <div className="Toffy">
             <a href="/toffy"><img src={Toffy} alt="Toffy" /></a>
             <div className='introduction'>
@@ -137,7 +143,8 @@ class Index extends Component {
           </div>
         </div>
         <div className="Graduation">
-        <p>학력사항</p>  
+
+        <p className='LargeCategory'>학력사항</p>  
           <div>
             <p>한국방송통신대학교 4학년 재학</p>
             <p>컴퓨터과학과 전공</p>
