@@ -12243,36 +12243,85 @@ a.text-dark:focus {
 
 /* 포트폴리오 메인 */
 .Index{
-  margin: 3% 6%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+
+  margin: 10px 0px 20px 0px;
 }
 .Index p {
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 20px;
+  font-size: 17px;
 }
 .Index div {
-  margin-top: 20px;
+  margin: 20px 5px 0px 5px;
+  width: 70%;
 }
 .Index div div{
   margin-bottom: 10px;
 }
 .Index .LargeCategory{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800;
-  margin-left: 0px;
+  margin: 10px 0px 0px 10px;
   color: #AF97EB;
 }
 .Index .MiddleCategory{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   margin-left: 5px;
-  color: #3A5DF2;
+  color: #3F55F5;
 }
-
-.Index .Rocket p{
-  font-size: 20px;
+.Index .Greeting p{
+  font-size: 25px;
   font-weight: 800;
   margin-left: 0px;
-  color: #EBA933;
+  color: #30BA93;
 }
+.Index .Rocket{
+  display: flex;
+  justify-content: center;
+}
+
+.Index .Rocket img{
+  width: 300px;
+  width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Index .Carrer .Role div {
+  margin-bottom: 10px;
+}
+ 
+.Index .Skills,
+.Index .Capabilities,
+.Index .Certificate,
+.Index .Carrer,
+.Index .Toyproject,
+.Index .Graduation{
+  border: 2px solid #AF97EB;
+  border-radius: 1px;
+}
+#root > div > div > div.Profiles{
+  border: 2px solid #AF97EB;
+  border-radius: 1px;
+}
+#root > div > div > div.Want{
+  border: 2px solid #AF97EB;
+  border-radius: 1px;
+}
+.Toyproject span {
+  color: #FFC33C;
+}
+.Capabilities .Capa span {
+  color: red;
+}
+.IPMS a {
+  margin-left:20px;
+  margin-right:30px;
+}
+
 
 /* 사용자 정의 CSS (선오) */
 /*설문조사*/
