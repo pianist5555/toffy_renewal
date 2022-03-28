@@ -42,6 +42,7 @@ class Index extends Component {
             <p className='MiddleCategory'>✎인프라 스택</p>
             <p>✔"클라우드"</p>
             <p>- AWS의 로드밸런서, Elastic Beanstalk 등을 활용하여 운영 서버 환경을 구성할 수 있고 무중단 배포를 할 수 있습니다.</p>  
+            <p>- GCP의 GAE 환경에서 Cron -> Taskqueue -> GCR로 이어지는 큐 서비스를 구성하고 운영할 수 있습니다. </p>
             <p>- PythonAnywhere로 호스팅한 경험이 있습니다.</p>  
             <p>- Heroku에 대한 경험이 있습니다.</p>  
             <p>- KT 클라우드로 호스팅한 경험이 있습니다.</p>  
@@ -50,7 +51,8 @@ class Index extends Component {
             <p>✔"Container"</p>
             <p>- 이미지 및 컨테이너 관리, Dockerfile,docker-compose를 활용하여 빌드할 수 있습니다.</p>  
             <p>✔"K8s"</p>
-            <p>- kubectl로 deployment하여 replicaset과 pod를 관리하고 service를 로드밸런서와 연결하고 ingress로 외부에 노출시켜 쿠버네티스 클러스터를 구성하고 관리할 수 있습니다.</p>  
+            <p>- kubectl로 deployment하여 replicaset과 pod를 관리하고 service를 로드밸런서와 연결하고 ingress로 외부에 노출시켜 쿠버네티스 클러스터를 구성하고 관리할 수 있습니다.</p>
+            <p>- AWS CLI를 이용하여 ECR에 로그인하여 도커 이미지를 푸시하고 EKS에 배포할 수 있습니다. </p>    
             <p>✔"CI/CD"</p>
             <p>- Travis CI를 이용해 Docker를 기반으로한 Elastic Beanstalk, R3와 통신하여 자동화 테스트/빌드, 자동화 배포 환경을 구축할 수 있습니다.</p>
             <p>- CodeDeploy에 대한 경험이 있습니다.</p>
@@ -69,11 +71,13 @@ class Index extends Component {
           <div className='App'>
             <p className='MiddleCategory'>✎어플리케이션 스택</p>
             <p>✔"Python"</p>
-            <p>- 기본문법을 사용할 수 있고 매직메소드, 메타클래스를 활용하며 제네레이터를 기반으로 코루틴을 구현하고 스레드와 프로세스를 사용하여 데이터를 처리할 수 있습니다.</p>  
-            <p>- 장고 프레임워크(CBV, FBV)를 대부분의 현업 프로젝트에서 수행했습니다.</p>  
+            <p>- 매직메소드, 메타클래스를 활용하며 제네레이터를 기반으로 코루틴을 구현하고 스레드와 프로세스를 사용하여 데이터를 처리할 수 있습니다.</p>  
+            <p>- 장고 프레임워크(CBV, FBV)를 사용해 대부분의 현업 프로젝트에서 수행했습니다. ORM 성능을 고민해서 작성합니다.</p>
+            <p>- DRF를 현업 프로젝트에서 사용했습니다.</p>  
             <p>- 플라스크 프레임워크에 대한 경험이 있습니다.</p>  
+            <p>- FastAPI 프레임워크에 대한 경험이 있습니다.</p>
             <p>✔"Java"</p>
-            <p>- 기본문법, 스프링 프레임워크의 경험이 있습니다.</p>  
+            <p>- 스프링 프레임워크의 경험이 있습니다.</p>  
             <p>✔ "React.js & redux"</p>
             <p>- hooks, react-redux, redux-thunk를 사용하여 비동기 프로그래밍을 할 수 있고 Context API, router 상태 및 URL을 관리할 수 있습니다.</p>  
             <p>✔ "Javascript"</p>
@@ -82,7 +86,7 @@ class Index extends Component {
             <p>- 간단한 테스트 코드를 학습을 했습니다.</p> 
             <p>*(단위테스트: jest, 통합테스트: supertest)</p>
             <p>✔"SQL"</p>
-            <p>- 기본문법, window함수, 절차형SQL, 계층형 SQL 활용 할 수 있습니다.</p>  
+            <p>- 기본문법, window함수, 절차형 SQL, 계층형 SQL 활용 할 수 있습니다.</p>  
             <p>- PostgreSQL, MySQL 등 오픈소스 RDBMS를 사용할 수 있습니다.</p>  
             <p>✔"NoSQL"</p>
             <p>- Redis를 사용하여 api limit을 거는 기본적인 작업을 할 수 있고 매트릭을 모니터링하여 aop, rss메모리 이슈 등을 확인할 수 있습니다.</p>  
@@ -96,7 +100,7 @@ class Index extends Component {
           <p className='LargeCategory'>핵심역량</p>
           <p className='Capa'><span>Django</span> : 대부분의 현업 프로젝트에서 파이썬의 프레임워크를 사용하였기 때문에 파이썬 사용시 생산성이 높습니다. </p>
           <p className='Capa'><span>Shell script</span> : 모니터링 시스템을 도입 전 스크립트와 데몬 서비스를 이용하여 레거시하게 다루었습니다. </p>
-          <p className='Capa'><span>Infra</span> : 인프라에 관심이 많아 서버세팅부터 운영까지 연차 이상의 퍼포먼스를 낼 수 있다고 생각합니다. </p>
+          <p className='Capa'><span>Cloud-Infra</span> : 인프라에 관심이 많아 서버세팅부터 운영까지 연차 이상의 퍼포먼스를 낼 수 있다고 생각합니다. </p>
           <p className='Capa'><span>Communication</span> : 마케팅팀, 운영팀, 기획팀과의 협업이 많았습니다. 시스템 확장시 필요한 도메인 지식과 개발 지식을 연결하는데 장점이 있습니다. </p>
         </div>
 
@@ -113,28 +117,38 @@ class Index extends Component {
           <div className='Role'>
             <div className='Operating'>
               <p>1. 제이카 리뉴얼 및 운영</p>
-              <p>담당업무: 앱 서버 리뉴얼, 앱 서버 및 CMS 운영 & 개선, 제이카 공식 홈페이지 유지보수,</p>
+              <p>담당업무: 앱 서버 리뉴얼, 앱 서버 및 CMS 운영 & 개선, 제이카 공식 홈페이지 유지보수</p>
               <p>서버 모니터링 및 트러블슈팅</p> 
             </div>
             <div className='ProjectOne'>
               <p>2. 위블비즈 프로젝트 (구독형 카쉐어링 서비스)</p>
               <p>프로젝트 기간: 2020.12 ~ 2021.06 (6개월)</p>  
-              <p>환경: Django, PostgreSQL, nginx, uwsgi </p>
-              <p>담당업무: 플랫폼 통합관리 cms 서버 개발, 화성시청 & 동탄시청 cms, 앱 서버 개발,</p>
+              <p>환경: Django, PostgreSQL, nginx, uwsgi, KT Cloud</p>
+              <p>담당업무: 플랫폼 통합관리 CMS 서버 개발, 화성시청 & 동탄시청 CMS, 앱 서버 개발</p>
               <p>구독 알고리즘 개발</p>
             </div>
             <div className='ProjectTwo'>
               <p>3. 이마스(electric mobility as a service) </p>
               <p>프로젝트 기간: 2021.06 ~ 2021.10 (4개월) </p> 
               <p>환경: Django, PostgreSQL, React.js & Redux, Docker, AWS, Gunicorn, TravisCI</p>
-              <p>담당업무: cms 프론트 및 백엔드, 개발서버와 운영서버 구축, CI/CD 환경 구축</p>
+              <p>담당업무: CMS 프론트 및 백엔드, 개발서버와 운영서버 구축, CI/CD 환경 구축</p>
             </div>
           </div>
           <br></br>
           <p>텐핑거스 (2021년 12월 ~ )</p>
           <div className='Role'>
             <div className='Operating'>
-              <p>1. I'm trying to figure out our system.</p> 
+              <p>1. 데이트팝 서비스 유지보수 및 마케팅 본부 지원</p>
+              <p>프로젝트 기간: 2021.12 ~ </p>  
+              <p>환경: Django, DRF, FastAPI, GCP, AWS, MySQL, EKS, Memcached</p>
+              <p>담당업무: 메시징 서비스 관리, 이커머스 third party 연동, 크롤링(aiohttp, asyncio) </p>
+              <p>데이터 가공, 성능 개선</p>
+            </div>
+            <div className='ProjectOne'>
+              <p>2. 팝픽 프로젝트 (참여형 큐레이션 서비스)</p>
+              <p>프로젝트 기간: 2022.02 ~ 2022.04 (3개월)</p>
+              <p>환경: DRF, Google App Engine, MySQL, EKS</p> 
+              <p>담당업무: 앱 서버, 인하우스 DB 모델링 및 백엔드 개발</p>
             </div>
           </div>
         </div>
