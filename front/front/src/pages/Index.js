@@ -42,7 +42,7 @@ class Index extends Component {
             <p className='MiddleCategory'>✎인프라 스택</p>
             <p>✔"클라우드"</p>
             <p>- AWS의 로드밸런서, Elastic Beanstalk 등을 활용하여 운영 서버 환경을 구성할 수 있고 무중단 배포를 할 수 있습니다.</p>  
-            <p>- GCP의 GAE 환경에서 Cron -> Taskqueue -> GCR로 이어지는 큐 서비스를 구성하고 운영할 수 있습니다. </p>
+            <p>- GCP의 GAE 환경에서 Cron -> Taskqueue -> GCS로 이어지는 큐 서비스를 구성하고 운영할 수 있습니다. </p>
             <p>- PythonAnywhere로 호스팅한 경험이 있습니다.</p>  
             <p>- Heroku에 대한 경험이 있습니다.</p>  
             <p>- KT 클라우드로 호스팅한 경험이 있습니다.</p>  
@@ -123,7 +123,7 @@ class Index extends Component {
             <div className='ProjectOne'>
               <p>2. 위블비즈 프로젝트 (구독형 카쉐어링 서비스)</p>
               <p>프로젝트 기간: 2020.12 ~ 2021.06 (6개월)</p>  
-              <p>환경: Django, PostgreSQL, nginx, uwsgi, KT Cloud</p>
+              <p>환경: Django, PostgreSQL, nginx, uwsgi</p>
               <p>담당업무: 플랫폼 통합관리 CMS 서버 개발, 화성시청 & 동탄시청 CMS, 앱 서버 개발</p>
               <p>구독 알고리즘 개발</p>
             </div>
@@ -139,7 +139,6 @@ class Index extends Component {
           <div className='Role'>
             <div className='Operating'>
               <p>1. 데이트팝 서비스 유지보수 및 마케팅 본부 지원</p>
-              <p>프로젝트 기간: 2021.12 ~ </p>  
               <p>환경: Django, DRF, FastAPI, GCP, AWS, MySQL, EKS, Memcached</p>
               <p>담당업무: 메시징 서비스 관리, 이커머스 third party 연동, 크롤링(aiohttp, asyncio) </p>
               <p>데이터 가공, 성능 개선</p>
